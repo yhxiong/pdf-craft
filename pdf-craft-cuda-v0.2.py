@@ -31,7 +31,7 @@ def main():
     directory = os.path.dirname(os.path.abspath(pdf_file))
     output_dir_path=directory
 
-    print(f"文件名 ：{filename_with_md}")
+    print(f"文件 名 ：{filename_with_md}")
     print(f"当前目录：{current_working_dir}")
     print(f"输入文件：{pdf_file}")
     print(f"所在目录：{directory}")
